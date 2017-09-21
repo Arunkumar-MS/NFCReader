@@ -1,0 +1,1 @@
+{\"query\": \"query GetProduct($storeid: ID $tpnc: String){product(tpnc: $tpnc storeid: $storeid){title price {unitPrice unitOfMeasure}}}\",\"variables\":{\"storeid\":6440,\"tpnc\":272043262},\"operationName\": \"GetProduct\"}

@@ -1,0 +1,33 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "type":"object",
+  "properties":{
+    "data":{
+      "type":"object",
+      "properties":{
+        "product":{
+          "type":"object",
+          "properties":{
+            "title":{
+              "type":"string"
+            },
+            "price":{
+              "type":"object",
+              "properties":{
+                "unitPrice":{
+                  "type":"number"
+                },
+                "unitOfMeasure":{
+                  "type":"string"
+                }
+              }
+            },
+            "defaultImageUrl":{
+              "type":"string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
